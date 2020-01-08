@@ -1,0 +1,32 @@
+@import '~antd/es/style/themes/default.less';
+
+.tagList {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+  background: white;
+}
+
+.tagInner {
+  display: inline-block;
+  padding: 4px 6px;
+  user-select: none;
+}
+
+.dot {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding-left: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &::before {
+    width: 6px;
+    height: 6px;
+    background: currentColor;
+    border-radius: 50%;
+    content: '';
+  }
+}

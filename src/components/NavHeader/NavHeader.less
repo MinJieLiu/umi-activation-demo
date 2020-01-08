@@ -1,0 +1,45 @@
+@import '~antd/es/style/themes/default.less';
+
+.header {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0 20px 0 0;
+  color: white;
+  line-height: 48px;
+}
+
+.rightProfile {
+  display: flex;
+  align-items: center;
+
+  .menuItem {
+    padding: 0 14px;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+      &:first-child {
+        margin-right: 6px;
+      }
+
+      &:last-child {
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
+.menuSwitch {
+  padding: 0 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
