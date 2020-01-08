@@ -15,7 +15,7 @@
     "lint:prettier": "check-prettier lint",
     "lint:style": "stylelint --fix \"src/**/*.less\" --syntax less",
     "prettier": "prettier -c --write \"**/*\"",
-    "start": "cross-env SEEPLN_ENV=dev umi dev",
+    "start": "umi dev",
     "test": "umi test",
     "test:all": "node ./tests/run-tests.js",
     "test:component": "umi test ./src/components",
