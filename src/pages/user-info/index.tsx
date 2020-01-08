@@ -26,7 +26,7 @@ const getTableData = ({ current, pageSize }: FnParams<Item>) =>
       data: res.results,
     }));
 
-const SmartList: React.FC = () => {
+const UserInfo: React.FC = () => {
   const { tableProps } = useAntdTable<Result, Item>(getTableData);
 
   return (
@@ -41,4 +41,4 @@ const SmartList: React.FC = () => {
   );
 };
 
-export default SmartList;
+export default UserInfo;

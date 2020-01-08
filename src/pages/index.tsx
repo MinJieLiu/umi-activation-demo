@@ -1,18 +1,11 @@
 import React from 'react';
-import { Link } from 'umi';
+import { Card } from 'antd';
 import ContentLayout from '@/layouts/ContentLayout';
 
 export default (): React.ReactNode => (
   <ContentLayout>
-    <div>
-      <Link to="/user-info">用户列表</Link>
-    </div>
-
-    <div>
-      <Link to="/test/hello">test with params</Link>
-    </div>
-    <div>
-      <Link to="/test/hello?result=world">test with params and queryString</Link>
-    </div>
+    <Card title="提醒" bordered={false}>
+      新开页面后，点击 Tab 左边的点即可固定
+    </Card>
   </ContentLayout>
 );
