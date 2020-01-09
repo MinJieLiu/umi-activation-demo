@@ -57,7 +57,7 @@
     "redux": "^4.0.5",
     "styled-components": "^4.4.1",
     "umi": "^2.12.9",
-    "umi-plugin-activation-route-modify": "^0.2.1",
+    "umi-plugin-activation-route-modify": "^0.3.0",
     "umi-plugin-react": "^1.14.12",
     "umi-request": "^1.2.17"
   },

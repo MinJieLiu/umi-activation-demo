@@ -15991,10 +15991,10 @@ umi-notify@^0.1.1:
     chalk "^2.4.1"
     is-ali-env "^0.1.4"
 
-umi-plugin-activation-route-modify@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npm.taobao.org/umi-plugin-activation-route-modify/download/umi-plugin-activation-route-modify-0.2.1.tgz#bc0eecb3aac6c2f208c62927adf147de465dc5ff"
-  integrity sha1-vA7ss6rGwvIIxiknrfFH3kZdxf8=
+umi-plugin-activation-route-modify@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npm.taobao.org/umi-plugin-activation-route-modify/download/umi-plugin-activation-route-modify-0.3.0.tgz?cache=0&sync_timestamp=1578556888392&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fumi-plugin-activation-route-modify%2Fdownload%2Fumi-plugin-activation-route-modify-0.3.0.tgz#62d626eda6f9df57ffa9f8a30cae3d932ae6bb24"
+  integrity sha1-YtYm7ab531f/qfijDK49kyrmuyQ=
 
 umi-plugin-dll@1.6.0:
   version "1.6.0"
