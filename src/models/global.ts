@@ -18,11 +18,16 @@ const mockMenuList: IMenuItem[] = [
   },
   {
     id: 2,
+    url: '/demo',
+    title: '示例',
+  },
+  {
+    id: 3,
     url: '/test/hello',
     title: '测试',
   },
   {
-    id: 3,
+    id: 4,
     url: '/test/hello?result=world',
     title: '测试带参数',
   },
